@@ -10,11 +10,10 @@ def row():
     square(32)
     move(32)
     
-row()
+
 turn(90)
 move(64)
 turn(90)
-row()
 turn(-90)
 move(0)
 turn(-90)
@@ -40,3 +39,5 @@ move(64)
 turn(90)
 row()
 
+def colour():
+  
