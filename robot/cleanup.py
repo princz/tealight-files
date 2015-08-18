@@ -12,4 +12,5 @@ def run(i):
   for i in range(0,3):
     move()
     
-run(3)
+run(0)
+
