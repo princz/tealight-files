@@ -8,9 +8,10 @@ from tealight.robot import (move,
 
 # Add your code here
 def run(i):
-  while i < 16:
+  while i < 10:
     move()
     i + 1
-  turn(1)
+
   
 run(0)
+turn(1)
