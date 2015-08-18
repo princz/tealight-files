@@ -12,7 +12,7 @@ def row():
     
 row()
 turn(90)
-move(60)
+move(64)
 row()
 
 
