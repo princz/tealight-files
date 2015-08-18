@@ -7,5 +7,7 @@ from tealight.robot import (move,
                             right_side)
 
 # Add your code here
-move()
-move()
+
+def run(i):
+  for i in range(0,30):
+  move()
