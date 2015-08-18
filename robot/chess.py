@@ -21,7 +21,7 @@ def walk(j):
     move()
   
 def run2(i):
-  for i in range (0.30):
+  for i in range (0,30):
     move()
   
 run(0)
