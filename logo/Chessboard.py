@@ -6,11 +6,5 @@ def polygon(edges, size):
     move(size)
     turn(angle)
     
-polygon(1000,1)
+polygon(4,100)
 
-def square(side):
-  for i in range(0,4):
-    move(side)
-    turn(90)
-    
-square(4)
