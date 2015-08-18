@@ -18,3 +18,5 @@ turn(1)
 
 run(0)
 turn(1)
+run(0)
+turn(1)
