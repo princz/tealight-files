@@ -14,5 +14,7 @@ while True:
       turn(-1)
     elif right_side()==None:
       turn(1)
+    elif
+      turn(2)
       
  
