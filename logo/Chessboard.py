@@ -8,7 +8,7 @@ def square(side):
 def row():
   for j in range(0,8):
     square(32)
-    move(60)
+    move(30)
     
 row()
 turn(90)
