@@ -18,5 +18,6 @@ while True:
       turn(2)
   if left_side()==None:
     turn(-1)
+    
   
  
