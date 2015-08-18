@@ -25,8 +25,9 @@ turn(1)
 run(0)
 turn(1)
 
-def run(j):
+def walk(j):
   for j in range (0,4):
     move()
     
-run(0)
+walk(0)
+turn(1)
