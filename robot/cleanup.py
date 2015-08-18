@@ -9,7 +9,7 @@ from tealight.robot import (move,
 # Add your code here
 
 def run(i):
-  for i in range(0<==3):
+  for i in range(0,4):
     move()
     
 run(3)
