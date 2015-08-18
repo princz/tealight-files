@@ -18,4 +18,4 @@ turn(1)
 
 run(20)
 turn(1)
-run()
+run(0)
