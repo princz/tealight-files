@@ -12,8 +12,7 @@ from tealight.robot import (move,
 def run(i):
   for i in range (0,4):
     move()
+    turn(1)
     
 run(0)
-turn(1)
 
-run(0)
