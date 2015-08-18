@@ -11,7 +11,7 @@ def run(i):
   for i in range (0, 32):
     move()
 
-def jog(i):
+def run1(i):
   for i in range (0, 31):
     move()
   
@@ -20,8 +20,10 @@ def walk(j):
   for j in range (0,4):
     move()
   
+def run2(i):
+  for i in range (0.30):
+    move()
   
-  
 run(0)
 turn(1)
 
@@ -31,7 +33,7 @@ turn(1)
 run(0)
 turn(1)
 
-jog(0)
+run1(0)
 turn(1)
 
 
@@ -41,4 +43,4 @@ turn(1)
 
 
 
-jog(0)
+run2(0)
