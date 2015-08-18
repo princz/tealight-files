@@ -21,3 +21,4 @@ def run1(i):
 run(0)
 turn(1)
 run1(0)
+turn(1)
