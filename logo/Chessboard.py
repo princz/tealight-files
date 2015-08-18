@@ -10,7 +10,3 @@ for i in range(0,8):
     move(32)  
     turn(90)
     
-for j in range(0,8):
-    turn(90)
-    move(32)
-    turn(90)
