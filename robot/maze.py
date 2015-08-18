@@ -10,15 +10,15 @@ from tealight.robot import (move,
 while True: 
   move()
   if touch()=='wall':
-    if right_side()==None:
-      turn(1)
-    elif left_side()==None:
+    if left_side()==None:
       turn(-1)
+    elif right_side()==None:
+      turn(1)
     else:
-      turn(-2)
+      turn(2)
   
-  elif right_side()==None:
-    turn(1)
+  elif left_side()==None:
+    turn(-1)
     
   
  
