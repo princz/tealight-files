@@ -10,6 +10,6 @@ for i in range(0,8):
     move(40)
 
 square(40)
-
-    
+square(40)
+    square(40)
 
