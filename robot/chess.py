@@ -32,4 +32,4 @@ def walk(j):
 walk(0)
 turn(1)
 
-run(0)
+run(0 - 1)
