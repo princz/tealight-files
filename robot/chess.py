@@ -32,4 +32,8 @@ def walk(j):
 walk(0)
 turn(1)
 
-run(0 - 1)
+def jog(i):
+  for i in range (0, 31):
+    move()
+
+jog(0)
