@@ -12,6 +12,12 @@ def run(i):
   for i in range(0,3):
     move()
     
+    
+def run1(i):
+  for i in range(0,20):
+    move()
+        
+    
 run(0)
-
 turn(1)
+run1(0)
