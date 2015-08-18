@@ -13,3 +13,5 @@ def run(i):
     move()
     
 run(0)
+
+turn(1)
