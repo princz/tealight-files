@@ -14,5 +14,5 @@ def run(i):
     move()
     turn(1)
     
-run(0)
+run(4)
 
