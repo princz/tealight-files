@@ -16,7 +16,8 @@ while True:
       turn(1)
     else:
       turn(2)
-  if left_side()==None:
+  
+  elif left_side()==None:
     turn(-1)
     
   
