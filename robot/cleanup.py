@@ -10,6 +10,6 @@ from tealight.robot import (move,
 
 def run(i):
   for i in range(0,20):
-    move(i)
+    move()
     
 run(2)
