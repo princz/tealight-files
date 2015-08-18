@@ -8,16 +8,10 @@ from tealight.robot import (move,
 
 # Add your code here
 def run(i):
-  for i in range (0, 20):
+  for i in range (0, 25):
     move()
 
 
   
 run(0)
 turn(1)
-
-run(20)
-turn(1)
-run(0)
-turn(1)
-run(0)
