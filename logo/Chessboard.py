@@ -40,5 +40,4 @@ move(64)
 turn(90)
 row()
 
-def colour():
   
