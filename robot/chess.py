@@ -15,3 +15,6 @@ def run(i):
   
 run(0)
 turn(1)
+
+run(20)
+turn(1)
