@@ -4,11 +4,11 @@ def square(side):
   for i in range(0,4):
     move(side)
     turn(90)
-
-for i in range(0,8):
-    turn(90)
+   
+def row():
+  for j in range(0,8):
+    square(32)
     move(40)
 
-square(40)
-turn(90)
+
 
