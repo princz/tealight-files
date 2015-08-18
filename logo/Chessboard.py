@@ -5,5 +5,5 @@ def square(side):
     move(side)
     turn(90)
     
-for i in range(0,10)
+for i in range(0,10):
 
