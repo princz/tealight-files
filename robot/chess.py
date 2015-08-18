@@ -7,3 +7,10 @@ from tealight.robot import (move,
                             right_side)
 
 # Add your code here
+
+
+def run(i):
+  for i in range (0,4):
+    move()
+    
+run(0)
