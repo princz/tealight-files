@@ -25,6 +25,8 @@ while True:
       turn(-1)
     elif right_side()==None:
       turn(1)
+    elif touch()=='wall':
+       turn(-1)
     else:
       turn(2)
   
