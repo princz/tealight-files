@@ -18,18 +18,5 @@ def run1(i):
     move()
         
     
-while True: 
-  move()
-  if touch()=='wall':
-    if left_side()==None:
-      turn(-1)
-    elif right_side()==None:
-      turn(1)
-    elif touch()=='wall':
-       turn(-1)
-    else:
-      turn(2)
-  
-  elif left_side()==None:
-    turn(-1)
+
 
