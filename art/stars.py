@@ -18,4 +18,4 @@ def star(x, y, c, size, spines):
 
 star(350, 350, "blue", 10, 999)
 star(600, 400, "purple", 10, 999)
-star(450, 200, "orange", 125, 30)
+star(450, 200, "orange", 10, 999)
