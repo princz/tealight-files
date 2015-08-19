@@ -10,7 +10,7 @@ ax = 0
 ay = 0.3
 
 
-power = 0.3/2
+power = 1000
 
 def handle_keydown(key):
   global ax, ay
