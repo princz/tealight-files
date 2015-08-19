@@ -19,3 +19,9 @@ def handle_mousemove(x,y,button):
     lastx = x
     lasty = y
   
+  else button == "right"
+    line(lastx, lasty, x, y)
+    lastx = x
+    lasty = y
+    color("red")
+  
