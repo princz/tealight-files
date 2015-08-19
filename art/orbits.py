@@ -7,7 +7,7 @@ y = screen_height / 2
 vx = 0
 vy = 0
 ax = 0
-ay = 10
+ay = 0.5
 
 power = 0.3
 
