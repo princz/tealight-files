@@ -14,7 +14,7 @@ def elipses(x, y, c, size, size2):
     
     line(x, y, x0, y0)
     
-    angle = angle + (2 * pi / 1)
+    angle = angle + (2 * pi / size2)
 
 elipses(350, 400, "blue", 10,999)
 elipses(400, 400, "purple", 10,999)
