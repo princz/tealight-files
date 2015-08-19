@@ -16,6 +16,6 @@ def elipses(x, y, c, size):
     
     angle = angle + (2 * pi / 1)
 
-star(350, 400, "blue", 10, 999)
-star(400, 400, "purple", 10, 999)
-star(450, 400, "orange", 10, 999)
+elipses(350, 400, "blue", 10, 999)
+elipses(400, 400, "purple", 10, 999)
+elipses(450, 400, "orange", 10, 999)
