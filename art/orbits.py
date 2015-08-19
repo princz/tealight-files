@@ -4,8 +4,8 @@ from tealight.art import screen_width, screen_height
 
 x = screen_width / 2
 y = screen_height / 2
-vx = 0
-vy = 0
+vx = 0.5
+vy = 0.5
 ax = 0.5
 ay = 0.5
 
