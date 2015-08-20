@@ -1,4 +1,4 @@
-myArray=[[1,2],[9,10]]
+myArray=[[1,2],[3,4]]
 
 for row in myArray:
   for e in row:
