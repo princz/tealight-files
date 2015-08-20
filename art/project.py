@@ -4,7 +4,8 @@ grid = []
 for row in range(64):
   grid(row).append([])
      
-for column in range(10):
+
+ for column in range(10):
   grid(row).append([])
   
 print grid
