@@ -1,8 +1,5 @@
-a = [0]*256
 
-
-
-#for i in range(64):
-#  a.append(0)
-  
-print a
+r=16
+c=16
+HighestNoMines = 10
+Nc=random()*HighestNoMines
