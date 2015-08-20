@@ -3,4 +3,8 @@ from tealight.art import (line, spot, circle, box, rectangle, image, text, backg
 grid = []
 for row in range(64):
   grid.append(0)
+     
+for column in range(10):
+  grid(row).append([])
+  
 print grid
