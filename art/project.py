@@ -1,6 +1,6 @@
 from random import random
-r=16
-c=16
+r=16.0
+c=16.0
 HighestNoMines = 10.0
 
 Nc=0
