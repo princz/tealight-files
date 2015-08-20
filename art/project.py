@@ -7,5 +7,5 @@ Nc=0
 while (Nc == 0):
   Nc=int(random()*HighestNoMines)
 
-for i in range(0,Nc)
+for i in range(0,Nc):
   print i
