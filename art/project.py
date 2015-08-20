@@ -46,6 +46,6 @@ for j in range(0,r-1):
 m[0][1]=1
 
 print check(1,1)
-
+print m
 
 
