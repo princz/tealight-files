@@ -30,7 +30,7 @@ def check(x,y):
   if m[x-1][y] == 1:    
     count=count+1
     
-  return number_of_empty_places
+  return count
   
 #for i in range(0,Nc):
 m=[]
