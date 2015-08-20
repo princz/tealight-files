@@ -55,6 +55,6 @@ for j in range(0,r-1):
 m[0][1]=1
 
 print check(0,2)
-print m
+print 
 
 
