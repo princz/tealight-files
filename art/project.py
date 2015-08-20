@@ -1,5 +1,5 @@
 from random import random
-#import github.jackm110.art.Project.py
+import github.jackm110.art.Project.py
 
 r=16
 c=16
@@ -72,4 +72,5 @@ m[0][1]=1
 
 print check(0,2)
 print m
+
 initial()
