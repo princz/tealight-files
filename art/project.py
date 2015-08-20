@@ -1,1 +1,1 @@
-print "A new file!"
+background(paper.jpg)
