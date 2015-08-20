@@ -1,7 +1,7 @@
 from random import random
 r=16
 c=16
-HighestNoMines = 10
+HighestNoMines = 20
 
 Nc=0
 while (Nc == 0):
@@ -45,7 +45,7 @@ for j in range(0,r-1):
 
 m[0][1]=1
 
-print check(1,1)
+print check(0,2)
 print m
 
 
