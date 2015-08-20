@@ -1,5 +1,5 @@
 from random import random
-import github.jackm110.art.Project.py
+#import github.jackm110.art.Project.py
 
 r=16
 c=16
@@ -44,7 +44,6 @@ def check(x,y):
 flags=[]
 
 def initial():
-  print "woot"
   for j in range(0, r-1):
     flags.append([])
     for k in range(0, c-1):
