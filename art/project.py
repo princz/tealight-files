@@ -21,7 +21,8 @@ for j in range(0,r-1):
       m[j].append(1)
     else:
       m[j].append(0)
-    
+
+m[0][0]=5
 print m
 
 
@@ -29,10 +30,10 @@ def check(x,y):
 
   count = 0 
 
-  if m[x-1][y+1] == 0:
+  if m[x-1][y-1] == 0:
     count=count+1
-  if m[x][y+1] == 0:  
+  if m[x][y-1] == 0:  
     count=count+1
-      
+  if m[x+1][y-1]    
   
   return number_of_empty_places
