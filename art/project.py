@@ -47,7 +47,7 @@ def initial():
   for j in range(0, r-1):
     flags.append([])
     for k in range(0, c-1):
-      flags.append(0)
+      flags[j].append(0)
 
 def flag(x,y):
   flags[x][y] = 1
