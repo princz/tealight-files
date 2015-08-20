@@ -22,7 +22,7 @@ for j in range(0,r-1):
     else:
       m[j].append(0)
 
-m[0][0]=5
+m[0][1]=5
 print m
 
 
