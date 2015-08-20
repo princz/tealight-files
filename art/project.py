@@ -81,3 +81,4 @@ def handle_mousedown(x,y):
   posy = (y-203)/32
   print posx
   print posy
+  DrawFlag(posx, posy)
