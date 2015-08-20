@@ -33,6 +33,6 @@ def check(x,y):
     count=count+1
   if m[x][y+1] == 0:  
     count=count+1
-    
+      
   
-return number_of_empty_places
+  return number_of_empty_places
