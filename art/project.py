@@ -22,8 +22,8 @@ for j in range(0,r-1):
     else:
       m[j].append(0)
 
-m[1][0]=5
-print m
+m[0][1]=1
+print check(1,1)
 
 
 def check(x,y):
