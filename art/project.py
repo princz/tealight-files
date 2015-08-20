@@ -41,3 +41,19 @@ def check(x,y):
     
   return count
 
+flags=[]
+
+def initial():
+  for j in range(0, r-1):
+    flags.append([])
+    for k in range(0, c-1):
+      flags.append(0)
+
+def flag(x,y):
+  flags[x][y] = 1
+  
+def clear(x,y):
+  flags[x][y] = 2
+  
+  
+
