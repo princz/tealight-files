@@ -30,10 +30,21 @@ def check(x,y):
 
   count = 0 
 
-  if m[x-1][y-1] == 0:
+  if m[x-1][y-1] == 1:
     count=count+1
-  if m[x][y-1] == 0:  
+  if m[x][y-1] == 1:  
     count=count+1
-  if m[x+1][y-1]:    
+  if m[x+1][y-1] == 1:    
     count=count+1
+  if m[x+1][y] == 1:    
+    count=count+1
+  if m[x+1][y+1] == 1:    
+    count=count+1  
+  if m[x][y+1] == 1:    
+    count=count+1
+  if m[x-1][y+1] == 1:    
+    count=count+1
+  if m[x-1][y] == 1:    
+    count=count+1
+    
   return number_of_empty_places
