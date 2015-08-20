@@ -1,7 +1,6 @@
-rows = 10
-cols= 10
+a = []
 
-a=[]
-for row in xrange(rows: a += [[0]*cols]
-                  
-print "a"
+for i in range(64):
+  a.append(0)
+  
+print a
