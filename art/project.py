@@ -79,4 +79,5 @@ initial()
 def handle_mousedown(x,y):
   posx = (x-183)/32
   posy = (y-203)/32
-  print posx + posy
+  print posx
+  print posy
