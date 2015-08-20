@@ -1,6 +1,5 @@
-myArray=[[1,2],[3,4]]
+myArray=[[1,2],[9,10]]
 
 for row in myArray:
   for e in row:
     print e
-col=[row[j] for row in myArray]
