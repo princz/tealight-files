@@ -1,13 +1,13 @@
 from random import random
-r=16.0
-c=16.0
-HighestNoMines = 10.0
+r=16
+c=16
+HighestNoMines = 10
 
 Nc=0
 while (Nc == 0):
   Nc=int(random()*HighestNoMines)
 
-p=Nc/(r*c)
+p=float(Nc)/float(r*c)
 
 print p
   
