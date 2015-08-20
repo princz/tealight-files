@@ -8,7 +8,7 @@ while (Nc == 0):
   Nc=int(random()*HighestNoMines)
 
 #for i in range(0,Nc):
-
+m=[]
 for j in range(0,r-1):
   for k in range(0,c-1):
     m[r][c]=0
