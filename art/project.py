@@ -39,7 +39,21 @@ def check(x,y):
     
   return count
 
+flags=[]
 
+def inital():
+  for j in range(0, r-1):
+    flags.append([])
+    for k in range(0, c-1):
+      flags.append(0)
+
+def flag(x,y):
+  flags[x][y] = 1
+  
+def clear(x,y):
+  flags[x][y] = 2
+  
+  
   
 #for i in range(0,Nc):
 m=[]
@@ -56,5 +70,5 @@ m[0][1]=1
 
 print check(0,2)
 print m
-
+initial()
 
