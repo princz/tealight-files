@@ -76,9 +76,9 @@ print m
 
 initial()
 
-def handle_mousedown(x,y):
-  posx = (x-183)/32
-  posy = (y-203)/32
-  print posx
-  print posy
-  DrawFlag(posx, posy)
+#def handle_mousedown(x,y):
+#  posx = (x-183)/32
+#  posy = (y-203)/32
+#  print posx
+#  print posy
+#  DrawFlag(posx, posy)
