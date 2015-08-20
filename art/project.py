@@ -16,7 +16,10 @@ m=[]
 for j in range(0,r-1):
   m.append([])
   for k in range(0,c-1):
-    
-    m[j].append(0)
+    mine=random()
+    if (mine <= p):
+      m[j].append(1)
+    else
+      m[j].append(0)
     
 print m
