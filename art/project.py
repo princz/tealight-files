@@ -57,6 +57,7 @@ def clear(x,y):
   
   
   
+  
 #for i in range(0,Nc):
 m=[]
 for j in range(0,r-1):
