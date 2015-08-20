@@ -10,6 +10,7 @@ while (Nc == 0):
 #for i in range(0,Nc):
 m=[]
 for j in range(0,r-1):
+  m.append([])
   for k in range(0,c-1):
     m[r][c]=0
     
