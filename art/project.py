@@ -56,4 +56,25 @@ def clear(x,y):
   flags[x][y] = 2
   
   
+m=[]
+for j in range(0,r-1):
+  m.append([])
+  for k in range(0,c-1):
+    mine=random()
+    if (mine <= p):
+      m[j].append(1)
+    else:
+      m[j].append(0)
 
+m[0][1]=1
+
+print check(0,2)
+print m
+
+
+#def handle_mousedown(x,y):
+#  posx = (x-183)/32
+#  posy = (y-203)/32
+#  print posx
+#  print posy
+#  DrawFlag(posx, posy)
