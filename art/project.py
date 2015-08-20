@@ -35,6 +35,8 @@ def check(x,y):
 def isMine(x,y):
   if x <= 0 or x > 16:
     return 0
+  if y <= 0 or x > 16:
+    return 0
   
 #for i in range(0,Nc):
 m=[]
