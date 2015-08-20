@@ -1,5 +1,5 @@
 from random import random
-import github.jackm110.art.Project
+from github.jackm110.art.Project import *
 
 r=16
 c=16
