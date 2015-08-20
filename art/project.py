@@ -2,6 +2,10 @@ from random import random
 r=16
 c=16
 HighestNoMines = 10
-Nc=int(random()*HighestNoMines)
+
+Nc=0
+while (Nc == 0):
+  Nc=int(random()*HighestNoMines)
+
 
 print Nc
