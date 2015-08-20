@@ -76,7 +76,7 @@ print m
 
 initial()
 
-def handle_mousedown()
+def handle_mousedown():
   posx = (x-183)/32
   posy = (y-203)/32
   print posx + posy
