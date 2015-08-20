@@ -12,6 +12,6 @@ m=[]
 for j in range(0,r-1):
   m.append([])
   for k in range(0,c-1):
-    m[r].append(0)
+    m[j].append(0)
     
 print m
