@@ -9,23 +9,6 @@ while (Nc == 0):
 
 p=float(Nc)/float(r*c)
 
-print p
-  
-#for i in range(0,Nc):
-m=[]
-for j in range(0,r-1):
-  m.append([])
-  for k in range(0,c-1):
-    mine=random()
-    if (mine <= p):
-      m[j].append(1)
-    else:
-      m[j].append(0)
-
-m[0][1]=1
-print check(1,1)
-
-
 def check(x,y):
 
   count = 0 
@@ -48,3 +31,21 @@ def check(x,y):
     count=count+1
     
   return number_of_empty_places
+  
+#for i in range(0,Nc):
+m=[]
+for j in range(0,r-1):
+  m.append([])
+  for k in range(0,c-1):
+    mine=random()
+    if (mine <= p):
+      m[j].append(1)
+    else:
+      m[j].append(0)
+
+m[0][1]=1
+
+print check(1,1)
+
+
+
