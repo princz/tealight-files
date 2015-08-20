@@ -19,7 +19,7 @@ for j in range(0,r-1):
     mine=random()
     if (mine <= p):
       m[j].append(1)
-    else
+    elif
       m[j].append(0)
     
 print m
