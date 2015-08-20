@@ -53,5 +53,5 @@ m[0][1]=1
 
 print check(0,2)
 print m
-print isMine(0,1)
+
 
