@@ -1,4 +1,4 @@
-import random from random
+from random import random
 r=16
 c=16
 HighestNoMines = 10
