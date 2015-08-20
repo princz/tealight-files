@@ -1,7 +1,7 @@
 from random import random
 r=16
 c=16
-HighestNoMines = 20
+HighestNoMines = 30
 
 Nc=0
 while (Nc == 0):
