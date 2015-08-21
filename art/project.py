@@ -3,7 +3,7 @@ from random import random
 
 r=20
 c=20
-HighestNoMines = 30
+HighestNoMines = 256
 
 Nc=0
 while (Nc == 0):
@@ -12,9 +12,9 @@ while (Nc == 0):
 p=float(Nc)/float(r*c)
 
 def isMine(x,y):
-  if x < 0 or x > 16:
+  if x < 0 or x > 20:
     return 0
-  if y < 0 or y > 16:
+  if y < 0 or y > 20:
     return 0
   return m[x][y]
 
