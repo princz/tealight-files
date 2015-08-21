@@ -3,7 +3,7 @@ from random import random
 
 r=20
 c=20
-HighestNoMines = 256
+HighestNoMines = 50
 
 Nc=0
 while (Nc == 0):
