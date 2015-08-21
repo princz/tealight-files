@@ -1,8 +1,8 @@
 from random import random
 #from github.jackm110.art.Project import *
 
-r=17
-c=17
+r=16
+c=16
 HighestNoMines = 50
 
 Nc=0
@@ -12,9 +12,9 @@ while (Nc == 0):
 p=float(Nc)/float(r*c)
 
 def isMine(x,y):
-  if x < 0 or x > 18:
+  if x < 0 or x > 17:
     return 0
-  if y < 0 or y > 18:
+  if y < 0 or y > 17:
     return 0
   return m[x][y]
 
