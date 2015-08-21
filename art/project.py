@@ -1,8 +1,8 @@
 from random import random
 #from github.jackm110.art.Project import *
 
-r=16
-c=16
+r=20
+c=20
 HighestNoMines = 30
 
 Nc=0
@@ -68,8 +68,8 @@ for j in range(0,r-1):
 
 m[0][1]=1
 
-print check(0,2)
-print m
+#print check(0,2)
+#print m
 
 initial()
 
