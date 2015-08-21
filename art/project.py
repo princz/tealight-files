@@ -12,9 +12,9 @@ while (Nc == 0):
 p=float(Nc)/float(r*c)
 
 def isMine(x,y):
-  if x < 0 or x > 17:
+  if x < 0 or x > 16:
     return 0
-  if y < 0 or y > 17:
+  if y < 0 or y > 16:
     return 0
   return m[x][y]
 
